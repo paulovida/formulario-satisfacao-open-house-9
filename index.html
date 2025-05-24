@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulário de Satisfação</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="form-container" id="formulario">
+    <h2>Formulário de Satisfação</h2>
+    <form id="satisfacaoForm">
+      <div class="question">
+        <p>1) De maneira geral, que nota você daria para o evento</p>
+        <div class="emoji-rating" data-question="q1">
+          <input type="radio" id="q1-1" name="q1" value="1"><label for="q1-1">😞</label>
+          <input type="radio" id="q1-2" name="q1" value="2"><label for="q1-2">😕</label>
+          <input type="radio" id="q1-3" name="q1" value="3"><label for="q1-3">😐</label>
+          <input type="radio" id="q1-4" name="q1" value="4"><label for="q1-4">🙂</label>
+          <input type="radio" id="q1-5" name="q1" value="5"><label for="q1-5">😄</label>
+        </div>
+      </div>
+
+      <button type="submit">Confirmar</button>
+    </form>
+  </div>
+
+  <div class="thank-you" id="agradecimento">
+    <h2>Obrigado por sua participação!</h2>
+    <p>Suas respostas foram registradas com sucesso.</p>
+    <button onclick="reiniciarFormulario()">Responder novamente</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <script src="supabase.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
