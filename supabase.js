@@ -1,4 +1,3 @@
-
-const supabaseUrl = "https://SEU_PROJETO.supabase.co";
-const supabaseKey = "SUA_CHAVE_ANON";
+const supabaseUrl = "https://apobnyuscygxnplcbfec.supabase.co";
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFwb2JueXVzY3lneG5wbGNiZmVjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDgwOTA1ODMsImV4cCI6MjA2MzY2NjU4M30.roOxK7KwPJGT8mgbtOD2gilb6a4h5JQnLibud6XtUVA";
 const supabase = supabase.createClient(supabaseUrl, supabaseKey);
