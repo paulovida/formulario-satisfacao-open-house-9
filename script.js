@@ -1,4 +1,3 @@
-
 const form = document.getElementById("satisfacaoForm");
 const formulario = document.getElementById("formulario");
 const agradecimento = document.getElementById("agradecimento");
